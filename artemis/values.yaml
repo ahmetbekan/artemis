@@ -27,7 +27,7 @@ ingress:
       paths: 
       - /
 
-  tls: []
+  tls:
   - secretName: artemis-tls
     hosts:
     - artemis.ahmetbekan.com
